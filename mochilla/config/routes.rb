@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+
+  get '/about',       to: "static#about"
+  get '/contact',     to: "static#contact"
+  get '/help',        to: "static#help"
+  get '/home',        to: "static#home"
+  get '/pricing',     to: "static#pricing"
+  get '/privacy',     to: "static#privacy"
+  get '/terms',       to: "static#terms"
+  get 'static/sample'
+
   resources :orgs
   resources :vehicles
   devise_for :users
