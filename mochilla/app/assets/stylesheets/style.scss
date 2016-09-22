@@ -5,15 +5,15 @@
 @import url("./plugin/jquery.fs.tipper.css");
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 
-/* 
+/*
 * BASIC STYLE
-  - General Style    
-  - Headings Style    
-  - Button Style    
-  - Form Style    
+  - General Style
+  - Headings Style
+  - Button Style
+  - Form Style
   - Spacer Style
-      
-* HEADER 
+
+* HEADER
   - Header Style
   - Logo Style
   - Navigation Menu Style
@@ -35,7 +35,7 @@
   - Client Logo
   - Icon
   - Table
-  
+
 * GLOBAL STYLES
   - Push Menu Style ( Right Sidebar Menu )
   - Search Overlay Menu
@@ -2883,11 +2883,11 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 
 .bg-img1 {
-    background-image: url("../img/full/01.jpg");
+    background-image: image_url("full/01.jpg");
 }
 
 .bg-img2 {
-    background-image: url("../img/full/02.jpg");
+    background-image: image_url("full/02.jpg");
 }
 
 .bg-img3 {
@@ -2951,55 +2951,55 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 
 .bg-img18 {
-    background-image: url("../img/full/18.jpg");
+    background-image: image_url("full/18.jpg");
 }
 
 .bg-img19 {
-    background-image: url("../img/full/19.jpg");
+    background-image: image_url("full/19.jpg");
 }
 
 .bg-img20 {
-    background-image: url("../img/full/20.jpg");
+    background-image: image_url("full/20.jpg");
 }
 
 .bg-img21 {
-    background-image: url("../img/full/21.jpg");
+    background-image: image_url("full/21.jpg");
 }
 
 .bg-img22 {
-    background-image: url("../img/full/22.jpg");
+    background-image: image_url("full/22.jpg");
 }
 
 .bg-img23 {
-    background-image: url("../img/full/23.jpg");
+    background-image: image_url("full/23.jpg");
 }
 
 .bg-img24 {
-    background-image: url("../img/full/24.jpg");
+    background-image: image_url("full/24.jpg");
 }
 
 .bg-img25 {
-    background-image: url("../img/full/25.jpg");
+    background-image: image_url("full/25.jpg");
 }
 
 .bg-img26 {
-    background-image: url("../img/full/26.jpg");
+    background-image: image_url("full/26.jpg");
 }
 
 .bg-img27 {
-    background-image: url("../img/full/27.jpg");
+    background-image: image_url("full/27.jpg");
 }
 
 .bg-img28 {
-    background-image: url("../img/full/28.jpg");
+    background-image: image_url("full/28.jpg");
 }
 
 .bg-img29 {
-    background-image: url("../img/full/29.jpg");
+    background-image: image_url("full/29.jpg");
 }
 
 .bg-img30 {
-    background-image: url("../img/full/30.jpg");
+    background-image: image_url("full/30.jpg");
 }
 
 .border-b-box {
@@ -4303,7 +4303,8 @@ ul.project-detail-block, .project-detail-block ul {
     }
 
         #preloader .loader .loader-img {
-            background: url("../img/loading.GIF");
+
+            background: asset-url('loading.GIF');
             width: 60px;
             height: 60px;
             display: block;
