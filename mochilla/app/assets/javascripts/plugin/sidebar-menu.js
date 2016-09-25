@@ -4,7 +4,8 @@
 // ==============================================
 $(document).ready(function () {
     $menuSidebar = $('.pushmenu-right');
-    $menusidebarNav = $('#menu-sidebar-list-icon');
+    // $menusidebarNav = $('#menu-sidebar-list-icon');
+    $menusidebarNav = $('#sign-in-button');
     $menuSidebarclose = $('#menu-sidebar-close-icon');
 
     //sidebar menu navigation icon toggle
