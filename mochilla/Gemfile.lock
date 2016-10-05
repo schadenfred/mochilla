@@ -55,6 +55,8 @@ GEM
     arel (7.1.2)
     autoprefixer-rails (6.4.1.1)
       execjs
+    backstretch-rails (2.0.4)
+      railties (> 3.1)
     bcrypt (3.1.11)
     bootstrap (4.0.0.alpha4)
       autoprefixer-rails (>= 6.0.3)
@@ -339,6 +341,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  backstretch-rails
   bootstrap (~> 4.0.0.alpha4)
   byebug
   capybara-email
