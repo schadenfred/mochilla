@@ -14,6 +14,24 @@
 //= require jquery_ujs
 //= require jquery-ui
 
+//= require jquery.easing.1.3
+//= require jquery.fitvids
+//= require jquery.stellar.min
+//= require isotope.pkgd.min
+//= require jquery.appear
+//= require jquery.fs.tipper.min
+//= require jquery.countTo
+//= require owl.carousel.min
+
+//= require jquery.themepunch.tools.min
+//= require jquery.themepunch.revolution
+
+//= require jquery.magnific-popup.min
+//= require jquery.backstretch
+//= require jquery.singlePageNav.min
+//= require wow.min
+//= require theme
+
 //= require tether
 //= require bootstrap-sprockets
 //= require turbolinks
