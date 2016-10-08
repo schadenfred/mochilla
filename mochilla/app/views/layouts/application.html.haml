@@ -1,24 +1,30 @@
-= yield
+!!!
+%html{:lang => "en"}
+  %head
+    %title Mochil.la -- Document your car
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "Porsche Carrera 911 documentation carfax autocheck", :name => "keywords"}/
+    %meta{:content => "Fred Schoeneman", :name => "author"}/
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0", :name => "viewport"}/
+    /[if IE] <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    / Favicone Icon
+    = favicon_link_tag
+    = favicon_link_tag "favicon.png"
+    = favicon_link_tag "favicon.png", rel: "apple-touch-icon"
+    = yield :stylesheets
+    / = stylesheet_link_tag "application"
+    / = render "head"
 
-/ !!!
-/ %html
-/   %head
-/     = render "head"
+  %body
+    = render "preloader"
 
-/   %body
-/     / = render "preloader"
-/     / # = render "search_overlay"
+    .wrapper
+      / .container
+      %header
+        = yield :header
 
-/     / = render "search_overlay_menu"
-/     / = render "side_menu"
-/     / .wrapper
-/     /   = render "header"
-/     = yield
-/     = javascript_include_tag "application"
-/     :javascript
-/       $.backstretch([
-/         "#{asset_path 'full/10.jpg'}"
-/         , "#{asset_path 'full/26.jpg'}"
-/         , "#{asset_path 'full/26.jpg'}"
-/       ], {duration: 3000, fade: 750});
+      = yield
+    = yield :javascripts
 
