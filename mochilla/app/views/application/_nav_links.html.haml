@@ -12,17 +12,17 @@
 
 / \# views/devise/menu/_login_items.html.erb
 %li
-  = link_to('home', "#intro")
+  = link_to('home', root_url)
 - if user_signed_in?
   %li
     = link_to('sign out', destroy_user_session_path)
 - else
   %li
-    = link_to('sign in', "#sign-in-form")
+    = link_to('sign in', new_user_session_path)
 
 - if user_signed_in?
   %li
     = link_to('Edit registration', edit_user_registration_path)
 - else
   %li
-    = link_to('sign up', "#sign-up-form")
+    = link_to('sign up', new_user_registration_path)
