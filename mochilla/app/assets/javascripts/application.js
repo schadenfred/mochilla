@@ -28,8 +28,6 @@
 
 //= require jquery.magnific-popup.min
 //= require jquery.backstretch
-//= require jquery.singlePageNav.min
-//= require wow.min
 //= require theme
 
 //= require tether

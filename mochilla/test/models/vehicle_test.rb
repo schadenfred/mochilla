@@ -13,5 +13,16 @@ describe Vehicle do
       must_have_column :model
       must_have_column(:year, :integer)
     end
+
+    specify "indexes" do 
+
+    end
+
+  end
+
+  specify "associations" do 
+
+  	must_have_many :components
+  	must_have_many :ownerships
   end
 end
